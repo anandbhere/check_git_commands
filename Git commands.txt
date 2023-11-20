@@ -1,0 +1,29 @@
+1- Login Create a new repository with project name on Github
+
+2- before using Git configure your identity
+
+git config --global user.name "your username"
+git config --global user.email "your email"
+
+3- Create local project 
+
+git init
+
+4- Add files to repository
+
+git add .
+
+5- Make a commit
+
+git commit -m "Initial commit"
+
+6- Connect to local repository to Github
+
+git remote add origin https://github.com/username/repositoryname.git
+
+
+7- Push Your Projects to github
+
+git push -u origin main
+
+8- Authenticate if required if prompted for Username and password
