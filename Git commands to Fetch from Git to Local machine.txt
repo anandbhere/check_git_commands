@@ -1,0 +1,46 @@
+------------INITIAL SETUP ---------------
+1 open git bash command prompt on parent folder in which u want to fetch the repository
+
+2- log in with ur credentials username and email -- global
+
+3-  git clone <repository link>
+
+-----REGULAR UPDATES--------
+1-navigate to directory    i.e  navigate to repo just now created/fetched 
+cd <repository name>
+
+2-fetch the latest changes from remote repository 
+ git fetch origin 
+
+3- merger the changes from the remote repository
+git merge origin /<branch name>
+
+
+
+-----OR  insted of step 2 & 3 ----
+
+4 git pull to merge changes in one step
+
+git pull origin <branch name>
+
+
+
+
+-----Making changes and pushing back---
+
+
+5-  add changes to staging area
+
+git add .
+
+
+6-commit changes 
+
+git commit -m "Your commit message"
+
+
+7--Push changes to remore repo
+
+git push origin <branch name>
+
+

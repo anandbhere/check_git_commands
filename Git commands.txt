@@ -26,4 +26,4 @@ git remote add origin https://github.com/username/repositoryname.git
 
 git push -u origin main
 
-8- Authenticate if required if prompted for Username and password
+8- Authenticate if required if prompted for Username and passwordorigin 
